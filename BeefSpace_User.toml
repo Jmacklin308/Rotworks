@@ -1,0 +1,170 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\Game.bf", "src\\InputControllers\\AIInputController.bf", "src\\InputControllers\\KeyboardPlayerInput.bf"]
+
+[MainWindow]
+X = 343
+Y = 401
+Width = 1189
+Height = 892
+ShowKind = "ShowMaximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 350.0
+RequestedHeight = 200.0
+SizePriority = 200.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 402.0
+RequestedHeight = 200.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 110.4167
+TabIsPinned = false
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 1516.08
+RequestedHeight = 370.8492
+SizePriority = 1516.08
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Game.bf"
+TabWidth = 85.41669
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Game.bf"
+CursorPos = 387
+ProjectName = "Rotworks-Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "AIInputController.bf"
+TabWidth = 148.9584
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\InputControllers\\AIInputController.bf"
+CursorPos = 181
+ProjectName = "Rotworks-Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "KeyboardPlayerInput.bf"
+TabWidth = 168.75
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\InputControllers\\KeyboardPlayerInput.bf"
+CursorPos = 203
+ProjectName = "Rotworks-Game"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.5
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 89.58334
+TabIsPinned = false
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Errors"
+TabWidth = 81.25
+TabIsPinned = false
+Type = "ErrorsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Console"
+TabWidth = 93.75
+TabIsPinned = false
+Type = "ConsolePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Diagnostics"
+TabWidth = 113.5417
+TabIsPinned = false
+Type = "DiagnosticsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 95.83334
+TabIsPinned = false
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 300.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 85.41667
+TabIsPinned = false
+Type = "WatchPanel"
+Columns = [{Width = 192.0}, {Width = 192.0}, {Width = 192.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs.Items]]
+EvalStr = ""
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 77.08334
+TabIsPinned = false
+Type = "AutoWatchPanel"
+Columns = [{Width = 192.0}, {Width = 192.0}, {Width = 192.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.5
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Threads"
+TabWidth = 92.70834
+TabIsPinned = false
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 102.0833
+TabIsPinned = false
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 107.2917
+TabIsPinned = false
+Type = "ImmediatePanel"
+
+[[BookmarkFolders]]
+Title = ""
+
+[OutputFilters]
+ModuleLoadMessages = false
+ModuleUnloadMessages = false
+ProcessExitMessages = false
+ThreadCreateMessages = false
+ThreadExitMessages = false
+SymbolLoadMessages = false
+ProgramOutput = false
