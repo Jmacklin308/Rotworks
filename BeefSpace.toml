@@ -1,6 +1,5 @@
 FileVersion = 1
-Projects = {Rotworks-Game = {Path = "."}, raylib-beef = {Path = "../../BeefLibs/Raylib/raylib-beef"}}
-Locked = ["raylib-beef"]
+Projects = {Rotworks-Game = {Path = "."}, raylib-beef = {Path = "libraries/raylib-beef-5.5/raylib-beef"}}
 
 [Workspace]
 StartupProject = "Rotworks-Game"
