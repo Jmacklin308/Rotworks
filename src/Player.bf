@@ -4,7 +4,7 @@ using static RaylibBeef.Raylib;
 
 namespace Rotworks;
 
-class Player : Entity, IDrawable, IUpdatable
+class Player : Entity
 {
 
 	//bools
@@ -46,10 +46,18 @@ class Player : Entity, IDrawable, IUpdatable
 		if (input.IsMovingUp())  position.y -= MaxSpeed * GetFrameTime();
 		if (input.IsMovingLeft())  position.x -= MaxSpeed * GetFrameTime();
 		if (input.IsMovingRight())  position.x += MaxSpeed * GetFrameTime();
+
+		Raylib.TraceLog(1, $"Position is {position}");
 	}
 
 	public void Draw()
 	{
 		DrawRectangle((int32)position.x, (int32)position.y, Width, Height, Color);
+	}
+
+
+	public void Destroy()
+	{
+		delete input;
 	}
 }

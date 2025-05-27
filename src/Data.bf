@@ -12,4 +12,14 @@ class Data
 
 	//list of entities
 	public static List<Entity> entities = new List<Entity>();
+
+	//our player
+	public static Player player;
+
+
+	public static void Destroy()
+	{
+		entities.Clear();
+	}
+
 }

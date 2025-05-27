@@ -17,7 +17,12 @@ class Game
 
 
 		//add a new keyboard controlled player
-		Data.entities.Add(new Player(new KeyboardPlayerInput()));
+		Data.player = new Player(new KeyboardPlayerInput());
+		Data.entities.Add(Data.player);
+
+		//center the player
+		Data.player.position = *(new Vector2(GetScreenWidth() / 2, GetScreenHeight() / 2));
+
 
 
 		UI.Load();
@@ -61,6 +66,19 @@ class Game
 
 	public static void Destroy()
 	{
+
+		//delete all entities
+		for (let entity in Data.entities)
+		{
+			entity.Destroy();
+		}
+
+		//delete the list itself
+		Data.Destroy();
+
+
+		CloseAudioDevice();
+		CloseWindow();
 	}
 
 

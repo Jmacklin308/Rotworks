@@ -1,11 +1,11 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["src\\Game.bf", "src\\InputControllers\\AIInputController.bf", "src\\InputControllers\\KeyboardPlayerInput.bf"]
+RecentFilesList = ["src\\Player.bf", "src\\Util\\Debug.bf", "src\\Entity.bf", "src\\Program.bf"]
 
 [MainWindow]
-X = 343
-Y = 401
+X = -8
+Y = 0
 Width = 1189
 Height = 892
 ShowKind = "ShowMaximized"
@@ -22,7 +22,7 @@ Type = "DockingFrame"
 SplitType = 1
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
-RequestedWidth = 402.0
+RequestedWidth = 274.0
 RequestedHeight = 200.0
 Type = "TabbedView"
 
@@ -43,31 +43,41 @@ DefaultDocumentsTabbedView = true
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Debug.bf"
+TabWidth = 90.62502
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Util\\Debug.bf"
+CursorPos = 320
+ProjectName = "Rotworks-Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
-TabLabel = "Game.bf"
-TabWidth = 85.41669
+TabLabel = "Player.bf"
+TabWidth = 77.91668
 TabIsPinned = false
 Type = "SourceViewPanel"
-FilePath = "src\\Game.bf"
-CursorPos = 387
+FilePath = "src\\Player.bf"
+CursorPos = 1085
+VertPos = 300.0
 ProjectName = "Rotworks-Game"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "AIInputController.bf"
-TabWidth = 148.9584
+TabLabel = "Entity.bf"
+TabWidth = 75.83334
 TabIsPinned = false
 Type = "SourceViewPanel"
-FilePath = "src\\InputControllers\\AIInputController.bf"
-CursorPos = 181
+FilePath = "src\\Entity.bf"
+CursorPos = 263
 ProjectName = "Rotworks-Game"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "KeyboardPlayerInput.bf"
-TabWidth = 168.75
+TabLabel = "Program.bf"
+TabWidth = 91.45835
 TabIsPinned = false
 Type = "SourceViewPanel"
-FilePath = "src\\InputControllers\\KeyboardPlayerInput.bf"
-CursorPos = 203
+FilePath = "src\\Program.bf"
+CursorPos = 193
 ProjectName = "Rotworks-Game"
 
 [[MainDockingFrame.DockedWidgets]]
@@ -121,6 +131,9 @@ TabWidth = 85.41667
 TabIsPinned = false
 Type = "WatchPanel"
 Columns = [{Width = 192.0}, {Width = 192.0}, {Width = 192.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs.Items]]
+EvalStr = "Rotworks.Data.entities"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs.Items]]
 EvalStr = ""
