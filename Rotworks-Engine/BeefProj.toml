@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", raylib-beef = "*"}
+
+[Project]
+Name = "Rotworks-Engine"
+StartupObject = "Rotworks_Engine.Program"

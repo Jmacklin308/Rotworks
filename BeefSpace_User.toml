@@ -1,14 +1,14 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["src\\Game.bf", "src\\Util\\Debug.bf"]
+RecentFilesList = ["Rotworks-Engine\\src\\Assets\\TextureManager.bf", "Rotworks-Engine\\src\\Entities\\Entity.bf", "Rotworks-Engine\\src\\SceneSystem\\SceneManager.bf"]
 
 [MainWindow]
 X = 183
-Y = 36
+Y = 155
 Width = 1169
 Height = 877
-ShowKind = "ShowNormal"
+ShowKind = "ShowMaximized"
 
 [MainDockingFrame]
 Type = "DockingFrame"
@@ -29,7 +29,7 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Workspace"
-TabWidth = 113.2076
+TabWidth = 116.3265
 TabIsPinned = false
 Type = "ProjectPanel"
 
@@ -44,22 +44,31 @@ Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
-TabLabel = "Game.bf"
-TabWidth = 87.73586
+TabLabel = "TextureManager.bf"
+TabWidth = 151.0204
 TabIsPinned = false
 Type = "SourceViewPanel"
-FilePath = "src\\Game.bf"
-CursorPos = 251
-ProjectName = "Rotworks-Game"
+FilePath = "Rotworks-Engine\\src\\Assets\\TextureManager.bf"
+CursorPos = 71
+ProjectName = "Rotworks-Engine"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Debug.bf"
-TabWidth = 82.83019
+TabLabel = "Entity.bf"
+TabWidth = 86.7347
 TabIsPinned = false
 Type = "SourceViewPanel"
-FilePath = "src\\Util\\Debug.bf"
-CursorPos = 230
-ProjectName = "Rotworks-Game"
+FilePath = "Rotworks-Engine\\src\\Entities\\Entity.bf"
+CursorPos = 197
+ProjectName = "Rotworks-Engine"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "SceneManager.bf"
+TabWidth = 142.8571
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "Rotworks-Engine\\src\\SceneSystem\\SceneManager.bf"
+CursorPos = 341
+ProjectName = "Rotworks-Engine"
 
 [[MainDockingFrame.DockedWidgets]]
 RequestedWidth = 250.0
@@ -76,31 +85,31 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Output"
-TabWidth = 92.45284
+TabWidth = 90.81632
 TabIsPinned = false
 Type = "OutputPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Errors"
-TabWidth = 83.96227
+TabWidth = 86.7347
 TabIsPinned = false
 Type = "ErrorsPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Console"
-TabWidth = 96.22642
+TabWidth = 97.95918
 TabIsPinned = false
 Type = "ConsolePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Diagnostics"
-TabWidth = 116.0377
+TabWidth = 118.3673
 TabIsPinned = false
 Type = "DiagnosticsPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Memory"
-TabWidth = 99.05661
+TabWidth = 100.0
 TabIsPinned = false
 Type = "MemoryPanel"
 AutoResize = "Auto_Mul8"
@@ -108,7 +117,7 @@ RequestedWidth = 300.0
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Watch"
-TabWidth = 86.79246
+TabWidth = 86.7347
 TabIsPinned = false
 Type = "WatchPanel"
 Columns = [{Width = 192.0}, {Width = 192.0}, {Width = 192.0}]
@@ -121,7 +130,7 @@ EvalStr = ""
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Auto"
-TabWidth = 78.30189
+TabWidth = 77.55102
 TabIsPinned = false
 Type = "AutoWatchPanel"
 Columns = [{Width = 192.0}, {Width = 192.0}, {Width = 192.0}]
@@ -135,19 +144,19 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Threads"
-TabWidth = 95.28303
+TabWidth = 97.95918
 TabIsPinned = false
 Type = "ThreadPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Call Stack"
-TabWidth = 104.717
+TabWidth = 106.1224
 TabIsPinned = false
 Type = "CallStackPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Immediate"
-TabWidth = 111.3208
+TabWidth = 112.2449
 TabIsPinned = false
 Type = "ImmediatePanel"
 
