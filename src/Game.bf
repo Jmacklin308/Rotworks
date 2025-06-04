@@ -20,8 +20,8 @@ class Game
 		Data.player = new Player(new KeyboardPlayerInput());
 		Data.entities.Add(Data.player);
 
-		//center the player
-		Data.player.position = *(new Vector2(GetScreenWidth() / 2, GetScreenHeight() / 2));
+               //center the player without allocating on the heap
+               Data.player.position = Vector2((float)GetScreenWidth() / 2, (float)GetScreenHeight() / 2);
 
 
 
